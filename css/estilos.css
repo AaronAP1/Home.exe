@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor {
+    width: 1729px;
+    height: 979px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+header {
+
+    width: 1529px;
+    height: 150px;
+    background: blue;
+    float: right;
+
+}
+
+header h1 {
+    text-align: center;
+    line-height: 150px;
+}
+
+#pt1 {
+    background-color: rgb(59, 59, 59);
+    height: 97px;
+    width: 1121px;
+    margin-top: 10px;
+    float: left;
+}
+
+#pt1 h2 {
+    text-align: center;
+    line-height: 97px;
+    
+}
+#pt2 {
+    background-color: darkgrey;
+    height: 97px;
+    width: 600px;
+    float: right;
+    margin-top: 10px;
+  
+}
+
+#pt2 h2 {
+    text-align: center;
+  
+    line-height: 97px;
+}
+article{
+    background-color: blanchedalmond;
+    height: 532px;
+    width: 1121px;
+    float: left;
+    margin-top: 10px;
+}
+#noticias{
+    background-color: aquamarine;
+    height: 97px;
+    width: 600px;
+    float: right;
+    margin-top:10px;
+    
+
+}
+#noticias h2{
+    text-align: center;
+   
+    line-height: 97px;
+
+}
+#busqueda{
+    background-color: rgb(233, 178, 126);
+    height: 204px;
+    width: 600px;
+    float: right;
+    margin-top:10px;
+}
+#busqueda h2{
+    text-align: center;
+  
+    line-height: 204px;
+
+}
+#evento {
+    background-color: rgb(207, 106, 148);
+    height: 211px;
+    width: 600px;
+    float: right;
+    margin-top:10px;
+}
+#evento h2{
+    text-align: center;
+    
+    line-height: 211px;
+
+
+}
+footer{
+    background-color: rgb(130, 186, 231);
+    height: 97px;
+    width: 1729px;
+    float: right;
+    margin-top:10px;
+
+}
+footer h2{
+    text-align: center;
+    line-height: 97px;
+
+}
+@media screen and (max-width:1366px){
+	body {
+		font-size:90%; 
+	} 
+    #contenedor {
+        width: 1267px;
+        height: 669px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #contenedor2 {
+        height: 120px;
+        width: 1267px;
+    
+    
+    }
+    
+    header {
+    
+        width: 1134px;
+        height: 120px;
+        background: blue;
+        float: right;
+    
+    }
+    
+    header h1 {
+        text-align: center;
+        line-height: 120px;
+    }
+    
+    #pt1 {
+        background-color: rgb(59, 59, 59);
+        height: 71px;
+        width: 777px;
+        margin-top: 10px;
+        float: left;
+    }
+    
+    #pt1 h2 {
+        text-align: center;
+        line-height: 71px;
+        
+    }
+    #pt2 {
+        background-color: darkgrey;
+        height: 71px;
+        width: 479px;
+        float: right;
+        margin-top: 10px;
+      
+    }
+    
+    #pt2 h2 {
+        text-align: center;
+      
+        line-height: 71px;
+    }
+    article{
+        background-color: blanchedalmond;
+        height: 346px;
+        width: 777px;
+        float: left;
+        margin-top: 10px;
+    }
+    #noticias{
+        background-color: aquamarine;
+        height: 65px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+        
+    
+    }
+    #noticias h2{
+        text-align: center;
+       
+        line-height: 65px;
+    
+    }
+    #busqueda{
+        background-color: rgb(233, 178, 126);
+        height: 155px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+    }
+    #busqueda h2{
+        text-align: center;
+      
+        line-height: 155px;
+    
+    }
+    #evento {
+        background-color: rgb(207, 106, 148);
+        height: 106px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+    }
+    #evento h2{
+        text-align: center;
+        
+        line-height: 106px;
+    
+    
+    }
+    footer{
+        background-color: rgb(130, 186, 231);
+        height: 100px;
+        width: 1266px;
+        float: right;
+        margin-top:10px;
+    
+    }
+    footer h2{
+        text-align: center;
+        line-height: 100px;
+    
+    }
+}
